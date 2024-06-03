@@ -65,7 +65,7 @@ function displayRestaurants(restaurants) {
         card.innerHTML = `
             <h2>${restaurant.title}</h2>
             <p class="score">Rating: ${restaurant.totalScore} (${restaurant.reviewsCount} reviews)</p>
-            <p>Category: ${restaurant.category}</p>
+
             <p>Address: ${restaurant.street}, ${restaurant.city}, ${restaurant.state}, ${restaurant.countryCode}</p>
             <p>Phone: ${restaurant.phone}</p>
             ${restaurant.website ? `<a href="${restaurant.website}" target="_blank">Visit Website</a>` : ''}
